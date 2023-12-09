@@ -117,10 +117,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="ColumnX_SDA.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="ColumnF_SDA.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="textBoxTask_SDA.Text" xml:space="preserve">
+    <value>Протабулировать функцию sin(x) / (x + 1.2) - sin(x) * 2 - 2 * x  на заданном диапазоне от -5 до 5.
+Результат вывести в textBox,  построить график функции и  сохранить в файл OutPutFileTask4V24.txt по нажатию кнопки.</value>
+  </data>
 </root>

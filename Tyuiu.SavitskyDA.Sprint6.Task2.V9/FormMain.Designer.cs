@@ -29,29 +29,29 @@ namespace Tyuiu.SavitskyDA.Sprint6.Task2.V9
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.groupBoxTask_SDA = new System.Windows.Forms.GroupBox();
-            this.groupBoxInfo_SDA = new System.Windows.Forms.GroupBox();
-            this.groupBoxResult_SDA = new System.Windows.Forms.GroupBox();
             this.textBoxTask_SDA = new System.Windows.Forms.TextBox();
-            this.textBoxStart_SDA = new System.Windows.Forms.TextBox();
-            this.textBoxStop_SDA = new System.Windows.Forms.TextBox();
-            this.labelStart_SDA = new System.Windows.Forms.Label();
+            this.groupBoxInfo_SDA = new System.Windows.Forms.GroupBox();
             this.labelStop_SDA = new System.Windows.Forms.Label();
-            this.buttonInfo_SDA = new System.Windows.Forms.Button();
-            this.buttonDone_SDA = new System.Windows.Forms.Button();
-            this.dataGridViewFunction_SDA = new System.Windows.Forms.DataGridView();
-            this.chartFunction_SDA = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.labelStart_SDA = new System.Windows.Forms.Label();
+            this.textBoxStop_SDA = new System.Windows.Forms.TextBox();
+            this.textBoxStart_SDA = new System.Windows.Forms.TextBox();
+            this.groupBoxResult_SDA = new System.Windows.Forms.GroupBox();
             this.labelResult_SDA = new System.Windows.Forms.Label();
+            this.chartFunction_SDA = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.dataGridViewFunction_SDA = new System.Windows.Forms.DataGridView();
             this.ColumnX_SDA = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnF_SDA = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.buttonInfo_SDA = new System.Windows.Forms.Button();
+            this.buttonDone_SDA = new System.Windows.Forms.Button();
             this.groupBoxTask_SDA.SuspendLayout();
             this.groupBoxInfo_SDA.SuspendLayout();
             this.groupBoxResult_SDA.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewFunction_SDA)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartFunction_SDA)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewFunction_SDA)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBoxTask_SDA
@@ -63,31 +63,6 @@ namespace Tyuiu.SavitskyDA.Sprint6.Task2.V9
             this.groupBoxTask_SDA.TabIndex = 0;
             this.groupBoxTask_SDA.TabStop = false;
             this.groupBoxTask_SDA.Text = "Условие";
-            // 
-            // groupBoxInfo_SDA
-            // 
-            this.groupBoxInfo_SDA.Controls.Add(this.labelStop_SDA);
-            this.groupBoxInfo_SDA.Controls.Add(this.labelStart_SDA);
-            this.groupBoxInfo_SDA.Controls.Add(this.textBoxStop_SDA);
-            this.groupBoxInfo_SDA.Controls.Add(this.textBoxStart_SDA);
-            this.groupBoxInfo_SDA.Location = new System.Drawing.Point(12, 299);
-            this.groupBoxInfo_SDA.Name = "groupBoxInfo_SDA";
-            this.groupBoxInfo_SDA.Size = new System.Drawing.Size(332, 69);
-            this.groupBoxInfo_SDA.TabIndex = 0;
-            this.groupBoxInfo_SDA.TabStop = false;
-            this.groupBoxInfo_SDA.Text = "Вывод данных";
-            // 
-            // groupBoxResult_SDA
-            // 
-            this.groupBoxResult_SDA.Controls.Add(this.labelResult_SDA);
-            this.groupBoxResult_SDA.Controls.Add(this.chartFunction_SDA);
-            this.groupBoxResult_SDA.Controls.Add(this.dataGridViewFunction_SDA);
-            this.groupBoxResult_SDA.Location = new System.Drawing.Point(623, 12);
-            this.groupBoxResult_SDA.Name = "groupBoxResult_SDA";
-            this.groupBoxResult_SDA.Size = new System.Drawing.Size(718, 356);
-            this.groupBoxResult_SDA.TabIndex = 0;
-            this.groupBoxResult_SDA.TabStop = false;
-            this.groupBoxResult_SDA.Text = "Вывод данных";
             // 
             // textBoxTask_SDA
             // 
@@ -103,19 +78,27 @@ namespace Tyuiu.SavitskyDA.Sprint6.Task2.V9
     "е.\r\nРезультат вывести в DataGridView и построить график функции.";
             this.textBoxTask_SDA.TextChanged += new System.EventHandler(this.textBoxTask_SDA_TextChanged);
             // 
-            // textBoxStart_SDA
+            // groupBoxInfo_SDA
             // 
-            this.textBoxStart_SDA.Location = new System.Drawing.Point(9, 41);
-            this.textBoxStart_SDA.Name = "textBoxStart_SDA";
-            this.textBoxStart_SDA.Size = new System.Drawing.Size(157, 22);
-            this.textBoxStart_SDA.TabIndex = 0;
+            this.groupBoxInfo_SDA.Controls.Add(this.labelStop_SDA);
+            this.groupBoxInfo_SDA.Controls.Add(this.labelStart_SDA);
+            this.groupBoxInfo_SDA.Controls.Add(this.textBoxStop_SDA);
+            this.groupBoxInfo_SDA.Controls.Add(this.textBoxStart_SDA);
+            this.groupBoxInfo_SDA.Location = new System.Drawing.Point(12, 299);
+            this.groupBoxInfo_SDA.Name = "groupBoxInfo_SDA";
+            this.groupBoxInfo_SDA.Size = new System.Drawing.Size(332, 69);
+            this.groupBoxInfo_SDA.TabIndex = 0;
+            this.groupBoxInfo_SDA.TabStop = false;
+            this.groupBoxInfo_SDA.Text = "Вывод данных";
             // 
-            // textBoxStop_SDA
+            // labelStop_SDA
             // 
-            this.textBoxStop_SDA.Location = new System.Drawing.Point(172, 41);
-            this.textBoxStop_SDA.Name = "textBoxStop_SDA";
-            this.textBoxStop_SDA.Size = new System.Drawing.Size(154, 22);
-            this.textBoxStop_SDA.TabIndex = 0;
+            this.labelStop_SDA.AutoSize = true;
+            this.labelStop_SDA.Location = new System.Drawing.Point(169, 18);
+            this.labelStop_SDA.Name = "labelStop_SDA";
+            this.labelStop_SDA.Size = new System.Drawing.Size(93, 17);
+            this.labelStop_SDA.TabIndex = 1;
+            this.labelStop_SDA.Text = "Конец шага: ";
             // 
             // labelStart_SDA
             // 
@@ -126,14 +109,87 @@ namespace Tyuiu.SavitskyDA.Sprint6.Task2.V9
             this.labelStart_SDA.TabIndex = 1;
             this.labelStart_SDA.Text = "Старт шага: ";
             // 
-            // labelStop_SDA
+            // textBoxStop_SDA
             // 
-            this.labelStop_SDA.AutoSize = true;
-            this.labelStop_SDA.Location = new System.Drawing.Point(169, 18);
-            this.labelStop_SDA.Name = "labelStop_SDA";
-            this.labelStop_SDA.Size = new System.Drawing.Size(93, 17);
-            this.labelStop_SDA.TabIndex = 1;
-            this.labelStop_SDA.Text = "Конец шага: ";
+            this.textBoxStop_SDA.Location = new System.Drawing.Point(172, 41);
+            this.textBoxStop_SDA.Name = "textBoxStop_SDA";
+            this.textBoxStop_SDA.Size = new System.Drawing.Size(154, 22);
+            this.textBoxStop_SDA.TabIndex = 0;
+            // 
+            // textBoxStart_SDA
+            // 
+            this.textBoxStart_SDA.Location = new System.Drawing.Point(9, 41);
+            this.textBoxStart_SDA.Name = "textBoxStart_SDA";
+            this.textBoxStart_SDA.Size = new System.Drawing.Size(157, 22);
+            this.textBoxStart_SDA.TabIndex = 0;
+            // 
+            // groupBoxResult_SDA
+            // 
+            this.groupBoxResult_SDA.Controls.Add(this.labelResult_SDA);
+            this.groupBoxResult_SDA.Controls.Add(this.chartFunction_SDA);
+            this.groupBoxResult_SDA.Controls.Add(this.dataGridViewFunction_SDA);
+            this.groupBoxResult_SDA.Location = new System.Drawing.Point(623, 12);
+            this.groupBoxResult_SDA.Name = "groupBoxResult_SDA";
+            this.groupBoxResult_SDA.Size = new System.Drawing.Size(718, 356);
+            this.groupBoxResult_SDA.TabIndex = 0;
+            this.groupBoxResult_SDA.TabStop = false;
+            this.groupBoxResult_SDA.Text = "Вывод данных";
+            // 
+            // labelResult_SDA
+            // 
+            this.labelResult_SDA.AutoSize = true;
+            this.labelResult_SDA.Location = new System.Drawing.Point(6, 18);
+            this.labelResult_SDA.Name = "labelResult_SDA";
+            this.labelResult_SDA.Size = new System.Drawing.Size(84, 17);
+            this.labelResult_SDA.TabIndex = 1;
+            this.labelResult_SDA.Text = "Результат: ";
+            // 
+            // chartFunction_SDA
+            // 
+            chartArea1.Name = "ChartArea1";
+            this.chartFunction_SDA.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chartFunction_SDA.Legends.Add(legend1);
+            this.chartFunction_SDA.Location = new System.Drawing.Point(172, 38);
+            this.chartFunction_SDA.Name = "chartFunction_SDA";
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series1.IsVisibleInLegend = false;
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chartFunction_SDA.Series.Add(series1);
+            this.chartFunction_SDA.Size = new System.Drawing.Size(540, 312);
+            this.chartFunction_SDA.TabIndex = 6;
+            this.chartFunction_SDA.Text = "chart1";
+            // 
+            // dataGridViewFunction_SDA
+            // 
+            this.dataGridViewFunction_SDA.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewFunction_SDA.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ColumnX_SDA,
+            this.ColumnF_SDA});
+            this.dataGridViewFunction_SDA.Location = new System.Drawing.Point(9, 38);
+            this.dataGridViewFunction_SDA.Name = "dataGridViewFunction_SDA";
+            this.dataGridViewFunction_SDA.RowHeadersVisible = false;
+            this.dataGridViewFunction_SDA.RowHeadersWidth = 51;
+            this.dataGridViewFunction_SDA.RowTemplate.Height = 24;
+            this.dataGridViewFunction_SDA.Size = new System.Drawing.Size(157, 312);
+            this.dataGridViewFunction_SDA.TabIndex = 0;
+            this.dataGridViewFunction_SDA.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewFunction_SDA_CellContentClick);
+            // 
+            // ColumnX_SDA
+            // 
+            this.ColumnX_SDA.HeaderText = "X";
+            this.ColumnX_SDA.MinimumWidth = 6;
+            this.ColumnX_SDA.Name = "ColumnX_SDA";
+            this.ColumnX_SDA.Width = 50;
+            // 
+            // ColumnF_SDA
+            // 
+            this.ColumnF_SDA.HeaderText = "F(x)";
+            this.ColumnF_SDA.MinimumWidth = 6;
+            this.ColumnF_SDA.Name = "ColumnF_SDA";
+            this.ColumnF_SDA.Width = 50;
             // 
             // buttonInfo_SDA
             // 
@@ -160,59 +216,6 @@ namespace Tyuiu.SavitskyDA.Sprint6.Task2.V9
             this.buttonDone_SDA.MouseEnter += new System.EventHandler(this.buttonDone_SDA_MouseEnter);
             this.buttonDone_SDA.MouseLeave += new System.EventHandler(this.buttonDone_SDA_MouseLeave);
             // 
-            // dataGridViewFunction_SDA
-            // 
-            this.dataGridViewFunction_SDA.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewFunction_SDA.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ColumnX_SDA,
-            this.ColumnF_SDA});
-            this.dataGridViewFunction_SDA.Location = new System.Drawing.Point(9, 38);
-            this.dataGridViewFunction_SDA.Name = "dataGridViewFunction_SDA";
-            this.dataGridViewFunction_SDA.RowHeadersVisible = false;
-            this.dataGridViewFunction_SDA.RowTemplate.Height = 24;
-            this.dataGridViewFunction_SDA.Size = new System.Drawing.Size(157, 312);
-            this.dataGridViewFunction_SDA.TabIndex = 0;
-            this.dataGridViewFunction_SDA.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewFunction_SDA_CellContentClick);
-            // 
-            // chartFunction_SDA
-            // 
-            chartArea5.Name = "ChartArea1";
-            this.chartFunction_SDA.ChartAreas.Add(chartArea5);
-            legend5.Name = "Legend1";
-            this.chartFunction_SDA.Legends.Add(legend5);
-            this.chartFunction_SDA.Location = new System.Drawing.Point(172, 38);
-            this.chartFunction_SDA.Name = "chartFunction_SDA";
-            series5.ChartArea = "ChartArea1";
-            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series5.IsVisibleInLegend = false;
-            series5.Legend = "Legend1";
-            series5.Name = "Series1";
-            this.chartFunction_SDA.Series.Add(series5);
-            this.chartFunction_SDA.Size = new System.Drawing.Size(540, 312);
-            this.chartFunction_SDA.TabIndex = 6;
-            this.chartFunction_SDA.Text = "chart1";
-            // 
-            // labelResult_SDA
-            // 
-            this.labelResult_SDA.AutoSize = true;
-            this.labelResult_SDA.Location = new System.Drawing.Point(6, 18);
-            this.labelResult_SDA.Name = "labelResult_SDA";
-            this.labelResult_SDA.Size = new System.Drawing.Size(84, 17);
-            this.labelResult_SDA.TabIndex = 1;
-            this.labelResult_SDA.Text = "Результат: ";
-            // 
-            // ColumnX_SDA
-            // 
-            this.ColumnX_SDA.HeaderText = "X";
-            this.ColumnX_SDA.Name = "ColumnX_SDA";
-            this.ColumnX_SDA.Width = 50;
-            // 
-            // ColumnF_SDA
-            // 
-            this.ColumnF_SDA.HeaderText = "F(x)";
-            this.ColumnF_SDA.Name = "ColumnF_SDA";
-            this.ColumnF_SDA.Width = 50;
-            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -234,8 +237,8 @@ namespace Tyuiu.SavitskyDA.Sprint6.Task2.V9
             this.groupBoxInfo_SDA.PerformLayout();
             this.groupBoxResult_SDA.ResumeLayout(false);
             this.groupBoxResult_SDA.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewFunction_SDA)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartFunction_SDA)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewFunction_SDA)).EndInit();
             this.ResumeLayout(false);
 
         }
