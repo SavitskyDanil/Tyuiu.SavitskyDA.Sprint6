@@ -22,7 +22,7 @@ namespace Tyuiu.SavitskyDA.Sprint6.Task6.V10.Lib
                     string[] itog = line.Split(' ');
                     for (int i = 0; i < itog.Length; i++)
                     {
-                        if (itog[i].Contains("w") || itog[i].Contains("W"))
+                        if (itog[i].Contains("w"))
                         {
                             resStr =  resStr + " " + itog[i];
                         }

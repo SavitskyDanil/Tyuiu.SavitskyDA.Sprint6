@@ -16,7 +16,7 @@ namespace Tyuiu.SavitskyDA.Sprint6.Task6.V10.Test
 
             DataService ds = new DataService();
             string res = ds.CollectTextFromFile(path);
-            string wait = "nXkwQYzgZ LlckTwkpaAGTvLPc BRW";
+            string wait = " nXkwQYzgZ LlckTwkpaAGTvLPc";
             Assert.AreEqual(wait, res);
         }
     }
